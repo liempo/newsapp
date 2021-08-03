@@ -21,7 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Update window to our ViewController
         self.window = UIWindow(windowScene: windowScene)
         self.window?.makeKeyAndVisible()
-        self.window?.rootViewController = ViewController()
+        self.window?.rootViewController = FeedController.spawn()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

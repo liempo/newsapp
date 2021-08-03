@@ -1,12 +1,14 @@
-# platform :ios, '9.0'
+platform :ios, '11.0'
 
 target 'News' do
   use_frameworks!
 
   # Pods for News
-  pod 'RxSwift'
-  pod 'RxCocoa'
-  pod 'ReSwift'
-  pod 'Texture'
+  pod 'ReNode'
+
+  # pod 'Texture'
+  # pod 'ReSwift'
+  # pod 'RxSwift'
+  # pod 'RxCocoa'
 
 end
